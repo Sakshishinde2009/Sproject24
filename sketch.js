@@ -28,7 +28,8 @@ function setup() {
  
   var ball_options = {
     //write a code to set value of restitution such that:
-    Restitution : 0.95 
+    Restitution : 0.95,
+    frictionAir:0.01
 //Ball (white circle) bounces more when it hits the bottom.
     
   }
